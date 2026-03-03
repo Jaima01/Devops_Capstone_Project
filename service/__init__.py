@@ -13,6 +13,7 @@ from flask_cors import CORS
 db = SQLAlchemy()
 talisman = Talisman()
 
+
 def create_app():
     """Create and configure the Flask application."""
     app = Flask(__name__)
